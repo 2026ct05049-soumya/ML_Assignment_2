@@ -31,7 +31,7 @@ The majority class is about 3.2 times as common as the positive class. An always
 
 ## GitHub Repository Link
 
-Local project. A GitHub link can be added when the repository is published.
+https://github.com/2026ct05049-soumya/ML_Assignment_2
 
 ## Models used
 
