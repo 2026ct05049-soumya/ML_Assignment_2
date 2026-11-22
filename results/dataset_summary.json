@@ -1,0 +1,39 @@
+{
+  "raw_rows": 48842,
+  "duplicates_removed": 52,
+  "missing_before_deduplication": {
+    "age": 0,
+    "workclass": 2799,
+    "fnlwgt": 0,
+    "education": 0,
+    "education_num": 0,
+    "marital_status": 0,
+    "occupation": 2809,
+    "relationship": 0,
+    "race": 0,
+    "sex": 0,
+    "capital_gain": 0,
+    "capital_loss": 0,
+    "hours_per_week": 0,
+    "native_country": 857,
+    "income": 0
+  },
+  "class_counts": {
+    "raw": {
+      "<=50K": 37155,
+      ">50K": 11687
+    },
+    "deduplicated": {
+      "<=50K": 37109,
+      ">50K": 11681
+    },
+    "train": {
+      "<=50K": 29687,
+      ">50K": 9345
+    },
+    "test": {
+      "<=50K": 7422,
+      ">50K": 2336
+    }
+  }
+}
