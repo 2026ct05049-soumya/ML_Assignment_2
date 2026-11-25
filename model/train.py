@@ -11,12 +11,12 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 from threadpoolctl import threadpool_limits
 
-from model.classifiers import SEED, build_models
+from classifiers import SEED, build_models
 
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 TARGET = "income"
 COLUMNS = [
     "age", "workclass", "fnlwgt", "education", "education_num", "marital_status",
